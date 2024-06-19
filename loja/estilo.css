@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Oswald:wght@200..700&display=swap');
+body{
+    background: #add8e6;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.profile{
+    position: absolute;
+    top: 70px;
+    left: 94%;
+    bottom: 100%;
+    transform: translate(-50%, -50%);
+    background: #71cdec;
+    height:40px ;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.carro{
+    position: absolute;
+    top: 70px;
+    left: 81%;
+    bottom: 100%;
+    transform: translate(-50%, -50%);
+    background: #71cdec;
+    height:40px ;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.caixa{
+    position: absolute;
+    top:70px;
+    left: 50.7%;
+    bottom: 100%;
+    transform: translate(-50%, -50%);
+    background: #71cdec;
+    height:40px ;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.pesquisa{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+    line-height: 40px;
+    font-family: "Oswald", sans-serif;
+    width: 725px;
+}
+
+.botaoo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50% ;
+    background: #1e3754;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+::-webkit-input-placeholder{
+    color: #1e3754;
+}
+
+.back{
+    max-width: 1950px;
+    height: 92vh;
+    background-color: gray;
+    background-image:url(back.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    color: black;
+    font-family: "Oswald", sans-serif; 
+    font-size: 20px;
+    width: 330px;
+    margin-left: 170px ;
+    
+    
+}
+
+.logo {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    margin-top: 37px;
+    margin-left: 60px;
+    color:#1e3754;
+}
+
+.puma{
+    position: absolute;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: -50px;
+}
+.navbar{    
+    border: 5px solid rgb(113, 205, 236);
+    border-radius: 40px;
+    font-family: "Oswald", sans-serif;
+    color: black;
+    display: inline-block;
+    cursor: pointer;
+    width: 300px;
+    max-width: 300px;
+    margin: 50px 65px 50px 65px;
+    padding: 10px;
+    background-color: rgb(113, 205, 236);
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    align-items: center;
+}
+
+h2{
+    font-family: "Oswald", sans-serif ;
+    background: rgb(113, 205, 236);
+    border: 5px solid rgb(113, 205, 236);
+    border-radius: 20px;
+    margin-top: 70px;
+    text-align: center;
+    padding: 20px;
+    width: 1850px;
+}
+
+#camiseta{
+    display: inline-block;
+    border: 2px solid rgb(113, 205, 236);
+    margin: 50px 15px 0px 137px;
+    text-decoration: none;
+    color: black;
+}
+
+#chuteira{
+    display: inline-block;
+    border: 2px solid rgb(113, 205, 236);
+    margin: 0px 15px 0px 137px;
+    text-decoration: none;
+    color: black;
+}
+
+#kit{
+    display: inline-block;
+    border: 2px solid rgb(113, 205, 236);
+    margin: 0px 15px 0px 137px;
+    text-decoration: none;
+    color: black;
+}
+
+#boneco{
+    display: inline-block;
+    border: 2px solid rgb(113, 205, 236);
+    margin: 0px 15px 0px 137px;
+    text-decoration: none;
+    color: black;
+}
+
+#selecao{
+    display: inline-block;
+    border: 2px solid rgb(113, 205, 236);
+    margin: 150px 15px 0px 137px;   
+    text-decoration: none;
+    color: black;
+}
+
+#time{
+    display: inline-block;
+    border: 2px solid rgb(113, 205, 236);
+    margin: 0px 15px 0px 137px;
+    text-decoration: none;
+    color: black;
+}
+
+#quadro{
+    display: inline-block;
+    border: 2px solid rgb(113, 205, 236);
+    margin: 0px 15px 0px 137px;
+    text-decoration: none;
+    color: black;
+}
+
+#mochila{
+    display: inline-block;
+    border: 2px solid rgb(113, 205, 236);
+    margin: 0px 15px 0px 137px;
+    text-decoration: none;
+    color: black;
+}
+
+.nomep{
+    font-family: "Oswald", sans-serif ;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.patual{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arial;
+    margin-left: 10px;
+}
+
+.desconto{
+    text-decoration: line-through;
+    color: #1e3754;
+    margin-left: 10px;
+}
+

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href= "A loja.css" >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="A loja.js" defer></script>
+    <title>Loja</title>
+
+</head>
+<body>
+    <header>
+        <img class="puma" src="logo.svg" alt="Logo">
+        <a class="logo" href="index.html">Neymar's</a> 
+        <div class="caixa">
+            <input type="text" class="pesquisa" placeholder="Pesquisar">
+            <a href="#" class="botaoo">
+                <img src="lupa.svg" alt="Lupa" height="20" width="20">
+            </a>
+        </div>
+
+        <div class="carro ">
+            <a href="carrinho.html" class="botaoo">
+                <img src="carro.svg" alt="Lupa" height="20" width="20">
+            </a>
+        </div>
+
+        <div class="profile">
+            <a href="login.html" class="botaoo">
+                <img src="profile.svg" alt="Lupa" height="20" width="20">
+            </a>
+        </div>
+    </header>
+
+
+    <ul>
+        <a class="navbar" class="hoverboB" id="hoverBox"  href="index.html">Home</a>
+        <a class="navbar" class="hoverboxB" id="hoverBox2" href="carrinho.html">Promoções</a>
+        <a class="navbar" class="hover-boB" id="hoverBox3" href="main.html">Neymar Júnior</a>
+        <a class="navbar" class="hover-bxB" id="hoverBox4" href="main.html" onclick="mostrarAlerta()">Sobre Nós</a>
+    </ul>
+
+    
+    <div class="carrosel_simples">
+        <button id="anterior"><img src="arrow.png" alt="anterior"></button>
+        <div class="slides">
+          <img src="slider2.webp" alt="neymar" class="slider on" a="exibirMensagem">
+          <img src="slider 3.webp" alt="neymar" class="slider">
+        </div>
+        <button id="proximo"><img src="arrow.png" alt="proximo"></button>
+    </div>
+
+    <section>
+        <h2>Produtos em Destaque</h2>
+            <a id="camiseta" href="camiseta.html"> 
+                <img src="camisetaa.jpg" height="300" width="300" alt="Produto 1">
+                <p class="nomep">Camiseta Neymar jr</p>
+                <p class="desconto">R$ 500,00.</p>
+                <p class="patual">R$100,00</p>
+            </a>
+            <a id="chuteira" href="chuteira.html"> 
+                <img src="chuteiraa.jpg" height="300" width="300" alt="Produto 1">
+                <p class="nomep">Chuteira Neymar jr</p>
+                <p class="desconto">R$ 400,00.</p>
+                <p class="patual">R$ 100,00.</p>      
+            </a>
+            <a id="kit" href="time.html">   
+                <img src="ney.jpeg" height="300" width="300" alt="Produto 1">
+                <p class="nomep">Kit acessórios Neymar jr</p>
+                <p class="desconto">R$ 800,00.</p>
+                <p class="patual">R$ 500,00.</p>
+    
+            </a>
+            <a id="boneco" href="boneco.html">
+                <img src="bonecoo.jpeg" height="300" width="300" alt="Produto 1">
+                <p class="nomep">Boneco Neymar jr</p>
+                <p class="desconto">R$ 300,00.</p>
+                <p class="patual">R$ 100,00.</p>   
+            </a>
+            <a id="time" href="time.html"> 
+                <img src="PSG.jpeg" height="300" width="300" alt="Produto 1">
+                <p class="nomep">Camiseta PSG Neymar jr</p>
+                <p class="desconto">R$ 500,00.</p>
+                <p class="patual">R$ 300,00.</p>
+            </a>
+            <a id="selecao" href="selecao.html">   
+                <img src="selecaoo.png" height="300" width="300" alt="Produto 1">
+                <p class="nomep">Camiseta seleção brasileira</p> 
+                <p class="desconto">R$ 200,00.</p>
+                <p class="patual">R$ 100,00.</p>
+    
+            </a>
+            <a id="quadro" href="quadro.html">
+                <img src="quadroo.jpg" height="300" width="300" alt="Produto 1">
+                <p class="nomep">Quadro Neymar jr</p>
+                <p class="desconto">R$ 200,00.</p>
+                <p class="patual">R$ 150,00.</p>  
+            </a>
+            <a id="mochila" href="mochila.html"> 
+                <img src="mochilaa.jpeg" height="300" width="300" alt="Produto 1">
+                <p class="nomep">Mochila Neymar jr</p>
+                <p class="desconto">R$ 600,00.</p>
+                <p class="patual">R$ 350,00.</p>
+            </a>
+    </section>
+
+    <script>
+        function mostrarAlerta() {
+            alert("Este é o site do Neymar.");
+        }
+    </script>
+</body>
+</html>

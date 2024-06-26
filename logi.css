@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Oswald:wght@200..700&display=swap');
+
+body{
+    background: #add8e6;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.profile{
+    position: absolute;
+    top: 70px;
+    left: 94%;
+    bottom: 100%;
+    transform: translate(-50%, -50%);
+    background: #71cdec;
+    height:40px ;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.carro{
+    position: absolute;
+    top: 70px;
+    left: 81%;
+    bottom: 100%;
+    transform: translate(-50%, -50%);
+    background: #71cdec;
+    height:40px ;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.caixa{
+    position: absolute;
+    top:70px;
+    left: 50.7%;
+    bottom: 100%;
+    transform: translate(-50%, -50%);
+    background: #71cdec;
+    height:40px ;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.pesquisa{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+    line-height: 40px;
+    font-family: "Oswald", sans-serif;
+    width: 725px;
+}
+
+.botaoo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50% ;
+    background: #1e3754;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+::-webkit-input-placeholder{
+    color: #1e3754;
+}
+
+header{
+    color: black;
+    font-family: "Oswald", sans-serif; 
+    font-size: 20px;
+    width: 330px;
+    margin-left: 170px ;
+    
+    
+}
+
+.logo {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    margin-top: 37px;
+    margin-left: 60px;
+    color:#1e3754;
+}
+
+.puma{
+    position: absolute;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: -50px;
+}
+.navbar{    
+    border: 5px solid rgb(113, 205, 236);
+    border-radius: 40px;
+    font-family: "Oswald", sans-serif;
+    color: black;
+    display: inline-block;
+    cursor: pointer;
+    width: 300px;
+    max-width: 300px;
+    margin: 50px 65px 50px 65px;
+    padding: 10px;
+    background-color: rgb(113, 205, 236);
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    align-items: center;
+}
+.frase{
+    position:relative;
+    left: 37%;
+    background: #71cdec;
+    text-align: center;
+    color: #1e3754;
+    font-size: 30px;
+    border: 5px solid #71cdec;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.seta{
+    position: absolute;
+    top: 40%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    background: #71cdec;
+    height:40px ;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.registro{
+    background:#1e3754;
+    border-radius: 20px;
+    box-shadow:#add8e6 0px 13px 27px -5px, #add8e6 0px 8px 16px -8px;
+    padding: 20px 35px 35px 35px;
+    text-align: center;
+    width: 500px;
+    margin-left: 20.5%;
+    margin-top: 150px;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.bem{
+    background:#1e3754;
+    border-radius: 20px;
+    box-shadow:#add8e6 0px 13px 27px -5px, #add8e6 0px 8px 16px -8px;
+    padding: 20px 35px 35px 35px;
+    text-align: center;
+    width: 520px;
+    height:380px;
+    margin-left: 50.8%;
+    margin-top: 0;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+form i{
+    color: #1e3754;
+    font-size: 30px;
+    transition: color 250ms ease-in;
+}
+
+form .login{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+form .login i{
+    color:#add8e6;
+    position: absolute;
+    opacity: 0.85;
+    right: 13px;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+form input{
+    border: 1px solid #1e3754;
+    border-radius: 6px;
+    font-size: 15px;
+    padding: 13px 9px 13px 9px;
+    transition: border-color 250ms ease-in;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form input:focus{
+    border-color: #add8e6;
+    outline:none
+}
+
+form :-moz-placeholder{
+    color: #1e3754;
+    font-size: 15px;
+    opacity: 1;
+}
+
+form :-ms-input-placeholder{
+    color: #1e3754;
+    font-size: 15px;
+    opacity: 1;
+}
+
+form ::placeholder{
+    color: #1e3754;
+    font-size: 15px;
+    opacity: 1;
+}
+
+form button {
+    background: #71cdec;
+    border: none;
+    border-radius: 6px;
+    color: #1e3754;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding: 18px 10px;
+    width: 100%;
+    margin-left: 6.5px;
+}
+
+form button[type=submit] i {
+    margin-left: 5px;
+}
+
+form h1{
+    color: #71cdec;
+    font-weight: 600;
+    letter-spacing: 0;
+    margin: 25px 0 0 0;
+}
+
+form p{
+    color: #71cdec;
+    font-size: 18px;
+    margin: 2px 0 44px 0;
+}
+
+.ney {
+    display: none;
+    border-radius: 20px;
+    display: inline-block;
+    height: 460px;
+    width: 590px;
+    margin-left: 50.8%;
+    margin-top:-40%;
+    margin-bottom: 12px;
+}
+
+.inst{
+    border-radius: 20px;
+    position:absolute;
+    display: flex;
+    height: 435px;
+    width: 570px;
+    margin-left: 20.5%;
+    margin-top:0px;
+    background-color: #1e3754;
+    background-size: cover;
+    background-image: url(footo.jpg);
+}
+
+footer{
+    background-color: #add8e6;
+    padding: 20px;
+}
+
